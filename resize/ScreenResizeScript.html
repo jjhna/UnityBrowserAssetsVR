@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="ScreenResizeScript.css"></head>
+</head>
+<body>
+
+<style>
+    
+</style>
+
+<h1>Resize the screen Client: </h1>
+<hr>
+<br>
+<div class="form-group row">
+  <label for="example-number-input" class="col-2 col-form-label">Client X</label>
+  <div class="col-30">
+    <input class="form-control" type="number" value="5" id="clientX">
+  </div>
+</div>
+<br>
+<div class="form-group row">
+  <label for="example-number-input" class="col-2 col-form-label">Client Y</label>
+  <div class="col-30">
+    <input class="form-control" type="number" value="5" id="clientY">
+  </div>
+</div>
+<br>
+<div class="form-group row">
+  <label for="example-number-input" class="col-2 col-form-label">Client Z</label>
+  <div class="col-30">
+    <input class="form-control" type="number" value="1" id="clientZ">
+  </div>
+</div>
+<br>
+<hr>
+<h1>Resize the screen Wall: </h1>
+<hr>
+<br>
+<div class="form-group row">
+  <label for="example-number-input" class="col-2 col-form-label">Wall X</label>
+  <div class="col-30">
+    <input class="form-control" type="number" value="5" id="wallX">
+  </div>
+</div>
+<br>
+<div class="form-group row">
+  <label for="example-number-input" class="col-2 col-form-label">Wall Y</label>
+  <div class="col-30">
+    <input class="form-control" type="number" value="5" id="wallY">
+  </div>
+</div>
+<br>
+<div class="form-group row">
+  <label for="example-number-input" class="col-2 col-form-label">Wall Z</label>
+  <div class="col-30">
+    <input class="form-control" type="number" value="1" id="wallZ">
+  </div>
+</div>
+<br>
+<button type="button" class="btn btn-primary btn-lg" onclick="ChangeWall()">Change Wall Scale</button>    
+<button type="button" class="btn btn-secondary btn-lg" onclick="ChangeClient()">Change Client Scale</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="form-check form-check-inline">
+  <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" onclick="InvisibleClick()"> Make Client Visible
+  </label>
+</div>
+
+</body>
+
+<footer>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <script src='../bootstrap/js/bootstrap.min.js'></script>
+  <script type="application/javascript" src="ScreenResizeScript.js"></script>
+</footer>
+</html>
+
