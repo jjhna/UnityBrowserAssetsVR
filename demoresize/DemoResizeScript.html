@@ -6,60 +6,13 @@
 </head>
 <body>
 
-<style>
-    
-</style>
+<h1>Hello there welcome to the resizing tool browser</h1>
 
-<h1>Resize the screen Client: </h1>
-<hr>
-<br>
+<h3>At the moment only the wall can be resized</h3>
+<h3>The default size of the browser are 2, 2, 1 (x,y,z)</h3>
+<h3>When resizing make sure to add a 1 to the Z size </h3>
+<h3>After selecting which size remember to click on the Change Wall Scale button</h3>
 
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <label class="input-group-text" for="clientX">Client Size X</label>
-  </div>
-  <select class="custom-select" id="clientX">
-    <option selected>Choose...</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="5">5</option>
-    <option value="10">10</option>
-    <option value="15">15</option>
-    <option value="20">20</option>
-  </select>
-</div>
-
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <label class="input-group-text" for="clientY">Client Size Y</label>
-  </div>
-  <select class="custom-select" id="clientY">
-    <option selected>Choose...</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="5">5</option>
-    <option value="10">10</option>
-    <option value="15">15</option>
-    <option value="20">20</option>
-  </select>
-  </div>
-</div>
-
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <label class="input-group-text" for="clientZ">Client Size Z</label>
-  </div>
-  <select class="custom-select" id="clientZ">
-    <option selected>Choose...</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="5">5</option>
-    <option value="10">10</option>
-    <option value="15">15</option>
-    <option value="20">20</option>
-  </select>
-  </div>
-</div>
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
@@ -73,6 +26,9 @@
     <option value="10">10</option>
     <option value="15">15</option>
     <option value="20">20</option>
+    <option value="20">25</option>
+    <option value="20">30</option>
+    <option value="20">50</option>
   </select>
   </div>
 </div>
@@ -89,6 +45,9 @@
     <option value="10">10</option>
     <option value="15">15</option>
     <option value="20">20</option>
+    <option value="20">25</option>
+    <option value="20">30</option>
+    <option value="20">50</option>
   </select>
   </div>
 </div>
@@ -100,18 +59,12 @@
   <select class="custom-select" id="wallZ">
     <option selected>Choose...</option>
     <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="5">5</option>
-    <option value="10">10</option>
-    <option value="15">15</option>
-    <option value="20">20</option>
   </select>
   </div>
 </div>
 
 <br>
 <button type="button" class="btn btn-primary btn-lg" onclick="ChangeWall()">Change Wall Scale</button>    
-<button type="button" class="btn btn-secondary btn-lg" onclick="ChangeClient()">Change Client Scale</button>
 
 </body>
 
