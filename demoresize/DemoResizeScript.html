@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="DemoResizeScript.css"></head>
+</head>
+<body>
+
+<style>
+    
+</style>
+
+<h1>Resize the screen Client: </h1>
+<hr>
+<br>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="clientX">Client Size X</label>
+  </div>
+  <select class="custom-select" id="clientX">
+    <option selected>Choose...</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+  </select>
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="clientY">Client Size Y</label>
+  </div>
+  <select class="custom-select" id="clientY">
+    <option selected>Choose...</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+  </select>
+  </div>
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="clientZ">Client Size Z</label>
+  </div>
+  <select class="custom-select" id="clientZ">
+    <option selected>Choose...</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+  </select>
+  </div>
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="wallX">Wall Size X</label>
+  </div>
+  <select class="custom-select" id="wallX">
+    <option selected>Choose...</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+  </select>
+  </div>
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="wallY">Wall Size Y</label>
+  </div>
+  <select class="custom-select" id="wallY">
+    <option selected>Choose...</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+  </select>
+  </div>
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="wallZ">Wall Size Z</label>
+  </div>
+  <select class="custom-select" id="wallZ">
+    <option selected>Choose...</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+  </select>
+  </div>
+</div>
+
+<br>
+<button type="button" class="btn btn-primary btn-lg" onclick="ChangeWall()">Change Wall Scale</button>    
+<button type="button" class="btn btn-secondary btn-lg" onclick="ChangeClient()">Change Client Scale</button>
+
+</body>
+
+<footer>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <script src='../bootstrap/js/bootstrap.min.js'></script>
+  <script type="application/javascript" src="DemoResizeScript.js"></script>
+</footer>
+</html>
+
