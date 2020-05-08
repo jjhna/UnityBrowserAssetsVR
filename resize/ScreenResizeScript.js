@@ -1,5 +1,12 @@
+// Created by: Jonathan Na from the University of Hawaii at Manoa, Laboratory for Advanced Visualization & Application (LAVA)
+// Script for the wall and client display x,y,z scale
+// This script/functions are used by the ResizeWallScript.cs, ResizeClientScript.cs, WallInvisible.cs and ScreenResizeScript.html
 "use strict";
 
+// All of these functions work in the same way
+// The function gets the Element: clientX from the ScreenResizeScript.html
+// from the input form: <input class="form-control" type="number" value="5" id="clientX">
+// Once the integer is entered then that value gets parsed over into variable X which is then sent to the ResizeWallScript.cs 
 function FclientX() {
     var x = document.getElementById('clientX').value;
     x = parseInt(x);
@@ -36,6 +43,7 @@ function FwallZ() {
     return(z);
 }
 
+// Function that is still being tested, 
 function FClients() {
     var ass = new Object();
     ass[0] = document.getElementById('clientX').value;
@@ -44,6 +52,8 @@ function FClients() {
     return(ass);
 }
 
+// Function that checks if the checkbox for the invisible box is checked or unchecked
+// if so an interger is passed through (because I currently can't figure out the parseing atm)
 function CheckClient() {
     var checkers = document.getElementById("inlineCheckbox1").checked;
     if (checkers == true) {
